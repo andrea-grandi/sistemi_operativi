@@ -1,0 +1,4 @@
+ciao ciao
+questa e' una prova
+per il comando diff
+prova prova

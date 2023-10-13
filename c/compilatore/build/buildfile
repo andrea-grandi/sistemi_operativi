@@ -1,0 +1,20 @@
+CC=gcc
+CFLAGS="-Wall -std=c11"
+
+targets
+
+# target
+# dipendenze
+# comando
+
+main.o
+main.c func.h
+$CC -c main.c $CFLAGS
+
+func.o
+func.c func.h
+$CC -c func.c $CFLAGS
+
+main
+main.o func.o
+$CC -o main main.o func.o $CFLAGS

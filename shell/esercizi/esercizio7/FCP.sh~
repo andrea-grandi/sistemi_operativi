@@ -1,0 +1,12 @@
+#!/bin/sh
+#file comandi principale
+
+#controllo numero parametri
+case $# in 
+	0 | 1 | 2) echo error: numero parametri errato
+		exit 1;;
+	*) echo OK;;
+esac
+
+#controllo primo parametro (singolo carattere)
+esac

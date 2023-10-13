@@ -1,0 +1,8 @@
+#!/bin/sh
+#file comandi con primo esempio di for, ripetizioni enumerate
+for i in *
+do 
+	if test 
+echo $i
+done
+
